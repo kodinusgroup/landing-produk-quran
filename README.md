@@ -1,4 +1,9 @@
-# Landing Page Project
-By Dasa Kreativa Studio
+# Landing Produk Quran
 
-Proyek ini merupakan sebuah proyek yang dibangun untuk membuat halaman website landing produk.
+Vite + Bootstrap 5 + Swiper.
+
+```
+bun install
+bun run dev      # dev server
+bun run build    # output ke dist/
+```

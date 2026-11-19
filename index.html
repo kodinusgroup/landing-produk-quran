@@ -1,414 +1,405 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Set The Title -->
-    <title>Nama Situs</title>
-    <link rel="shortcut icon" href="https://via.placeholder.com/1080x1080.png" type="image/png" />
-
-    <!-- Files -->
-    <link rel="stylesheet" href="./dist/css/style.css" />
+    <title>Qalam Kecil - Buku Latihan Menulis & Menghafal Al-Qur'an untuk Anak</title>
+    <meta name="description" content="Buku latihan menulis huruf Arab dan menghafal Al-Qur'an untuk anak. Huruf besar, bisa ditulis dan dihapus, kertas tebal. Hanya Rp135.000." />
+    <meta name="theme-color" content="#0d2c66" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231a4fb4'/%3E%3Ctext x='50' y='70' font-size='60' text-anchor='middle' fill='%23e3b04b'%3E%D9%82%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
 </head>
 <body>
-    
+    <a class="skip-link" href="#content">Langsung ke konten</a>
+
     <header id="masthead">
-        <nav class="navbar navbar-light navbar-expand-sm bg-white" id="navbar-scroll">
+        <nav class="navbar navbar-expand-md" id="navbar-scroll" aria-label="Navigasi utama">
             <div class="container">
-                <a class="navbar-brand" href="/">Nama Situs</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#masthead"><span class="brand-mark" aria-hidden="true">ق</span>Qalam Kecil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Buka menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="#featured">Fitur</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="#keunggulan">Keunggulan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="#pricing">Harga</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary scroll" href="#footer"><i class="fas fa-shopping-cart fa-fw mr-2"></i>Beli Sekarang!</a>
-                        </li>
+                    <ul class="navbar-nav ms-auto align-items-md-center gap-md-1">
+                        <li class="nav-item"><a class="nav-link scroll" href="#keunggulan">Manfaat</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="#seri">Pilihan Seri</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="#pricing">Harga</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="#featured">Kelebihan</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="#testimonial">Testimoni</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="#faq">Tanya Jawab</a></li>
+                        <li class="nav-item ms-md-2"><a class="btn btn-primary btn-sm px-3 scroll" href="#pesan">Pesan Sekarang</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
-        <div class="container" id="main-container">
-            <div class="row align-items-center">
-                <div class="col-md-5">
+
+        <div class="container hero">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
                     <h1 class="title">Solusi Agar Anak Mahir Menulis Al-Qur'an & Menghafalkannya</h1>
-                    <p class="description">Buku yang memiliki segudang manfaat untuk anak menghafal Al-Qur'an dengan mudah dimanapun dan kapanpun.</p>
-                    <a href="#featured" class="btn btn-primary scroll">Baca Selengkapnya<i class="fas fa-fw fa-arrow-right ml-2"></i></a>
+                    <p class="description">Buku latihan yang membuat anak betah belajar menulis huruf Arab dan menghafal, di rumah maupun saat bepergian.</p>
+                    <div class="d-flex flex-wrap align-items-center gap-3">
+                        <a href="#pesan" class="btn btn-accent btn-lg scroll">Pesan Sekarang</a>
+                        <a href="#keunggulan" class="btn btn-link link-dark fw-semibold scroll">Lihat manfaatnya</a>
+                    </div>
+                    <p class="hero-price">Rp135.000 <span>per buku &middot; tersedia 3 seri: Juz 28, 29, dan 30</span></p>
                 </div>
-                <div class="col-md-7">
-                    <img src="./dist/img/image-hero.png" alt="Hero Image" class="img-fluid mt-5 mt-md-0" />
+                <div class="col-lg-6">
+                    <div class="hero-photo">
+                        <img src="/img/image-hero.png" width="1155" height="807" fetchpriority="high" alt="Tiga anak mengangkat buku Menulis Al-Qur'an Juz 28, 29, dan 30" />
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <section class="assure" aria-label="Kemudahan pemesanan">
+        <div class="container">
+            <ul>
+                <li><i class="fas fa-fw fa-hand-holding-dollar"></i><span><strong>COD tersedia</strong> bayar saat buku sampai</span></li>
+                <li><i class="fab fa-fw fa-whatsapp"></i><span><strong>Pesan via WhatsApp</strong> dibalas dan dikonfirmasi langsung</span></li>
+                <li><i class="fas fa-fw fa-box-open"></i><span><strong>Dikirim dari Ngawi</strong> dikemas rapi agar tidak tertekuk</span></li>
+            </ul>
+        </div>
+    </section>
+
     <main id="content">
-        <section id="keunggulan" class="bg-primary pb-5">
-            <div class="custom-shape-divider mb-5">
-                <svg data-name="Layer 1" height="75px" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path fill="#FFFFFF" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path fill="#FFFFFF" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path fill="#FFFFFF" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
+        <section id="keunggulan" class="section">
             <div class="container">
-                <h3 class="text-center pt-5 text-white">Apa Sih Fitur Buku Ini?</h3>
-                <p class="text-center text-white m-0 pb-4">Apa aja ya fitur dari buku ini?</p>
-                <div class="row featured">
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-hero-1.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title">Melatih Menulis Huruf Arab</h3>
-                            <p class="description">Buku ini membantu anak anda lebih cepat memahami dan menulis huruf Al-Qur'an.</p>
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="sticky-heading">
+                            <h2 class="section-title">Belajar yang terasa seperti bermain</h2>
+                            <p class="section-lead">Menulis dan menghafal jadi kegiatan harian yang menyenangkan, bukan beban.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-hero-2.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title">Melatih Perkembangan Otak</h3>
-                            <p class="description">Buku ini dapat melatih perkembangan otak dan fokus anak anda.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-hero-3.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title">Melatih Perkembangan Motorik</h3>
-                            <p class="description">Buku ini dapat melatih perkembangan psikomotorik anak anda.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-hero-4.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title">Menghilangkan Kecanduan HP</h3>
-                            <p class="description">Buku ini dapat membantu pemulihan anak anda dari kecanduan HP maupun Gadget.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="pricing" class="pb-5">
-            <div class="custom-shape-divider mb-5">
-                <svg data-name="Layer 1" height="75px" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path fill="#3880ff" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path fill="#3880ff" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path fill="#3880ff" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-            <div class="container pt-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 text-md-left text-center">
-                        <div class="d-md-flex align-items-center">
-                            <img src="./dist/img/hero-2.jpg" alt="Produk Buku Belajar Al-Qur’an" class="rounded mb-md-0 mb-3 text-center w-40 w-md-100" />
-                            <div class="content pl-md-3 pl-0">
-                                <h3>Buku Yang Sangat Menarik</h3>
-                                <p>Untuk bisa menulis & menghafal Al-Qur'an, cukup mengeluarkan biaya 135rb, Maka dengan mudah bisa mempelajari cara menghafal & menulis Al-Qur'an secara benar dan bagus.</p>
-    
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <h5>Berapa Harganya?</h5>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card card-body bg-danger text-white">
-                                            <h3 class="text-center"><s>Rp. 299.000,-</s></h3>
-                                            <p class="m-0 text-center">Harga awal</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card card-body bg-success text-white">
-                                            <h3 class="text-center">Rp. 135.000-</h3>
-                                            <p class="text-center m-0">Diskon Kali ini!</p>
-                                        </div>
-                                    </div>
+                    <div class="col-lg-7">
+                        <ul class="benefit-list">
+                            <li>
+                                <span class="icon-wrapper"><img src="/img/icon-hero-1.svg" alt="" width="56" height="56" /></span>
+                                <div>
+                                    <h3>Melatih Menulis Huruf Arab</h3>
+                                    <p>Anak lebih cepat mengenal bentuk huruf hijaiyah dan terbiasa menuliskannya.</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                            <li>
+                                <span class="icon-wrapper"><img src="/img/icon-hero-2.svg" alt="" width="56" height="56" /></span>
+                                <div>
+                                    <h3>Melatih Perkembangan Otak</h3>
+                                    <p>Aktivitas menulis dan menghafal membantu melatih fokus dan daya ingat anak.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-wrapper"><img src="/img/icon-hero-3.svg" alt="" width="56" height="56" /></span>
+                                <div>
+                                    <h3>Melatih Perkembangan Motorik</h3>
+                                    <p>Menggoreskan spidol mengasah kelincahan jari dan koordinasi tangan anak.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-wrapper"><img src="/img/icon-hero-4.svg" alt="" width="56" height="56" /></span>
+                                <div>
+                                    <h3>Alternatif Selain Gadget</h3>
+                                    <p>Kegiatan belajar yang seru tanpa layar, cocok untuk mengisi waktu luang anak.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="featured" class="bg-primary pb-5">
-            <div class="custom-shape-divider mb-5">
-                <svg data-name="Layer 1" height="75px" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path fill="#FFFFFF" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path fill="#FFFFFF" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path fill="#FFFFFF" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
+        <section id="seri" class="section section-tint">
             <div class="container">
-                <h3 class="text-center pt-5 pb-4 text-white">Apa Sih Kelebihan Buku Ini?</h3>
-                <div class="row featured justify-content-center">
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-1.svg" class="img-fluid" />
+                <div class="row align-items-end g-4 mb-5">
+                    <div class="col-lg-7">
+                        <h2 class="section-title mb-0">Tiga seri, satu per juz</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="section-lead mb-0">Semua seri berisi latihan yang sama pola belajarnya. Pilih sesuai juz yang sedang dipelajari anak.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <article class="series-card series-28">
+                            <div class="series-cover"><span>Juz</span><strong>28</strong></div>
+                            <div class="series-body">
+                                <h3>Seri Juz 28</h3>
+                                <p>Surat Al-Mujadilah sampai At-Tahrim. Cover biru muda.</p>
+                                <p class="series-price">Rp135.000</p>
+                                <a href="#pesan" class="btn btn-outline-primary w-100 scroll" data-seri="Juz 28">Pilih seri ini</a>
                             </div>
-                            <h3 class="title mb-0">Ukuran Huruf Besar</h3>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="series-card series-29">
+                            <div class="series-cover"><span>Juz</span><strong>29</strong></div>
+                            <div class="series-body">
+                                <h3>Seri Juz 29</h3>
+                                <p>Surat Al-Mulk sampai Al-Mursalat. Cover kuning.</p>
+                                <p class="series-price">Rp135.000</p>
+                                <a href="#pesan" class="btn btn-outline-primary w-100 scroll" data-seri="Juz 29">Pilih seri ini</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="series-card series-30">
+                            <div class="series-cover"><span>Juz</span><strong>30</strong></div>
+                            <div class="series-body">
+                                <h3>Seri Juz 30</h3>
+                                <p>Surat An-Naba' sampai An-Nas, surat-surat pendek yang paling sering dihafal. Cover merah muda.</p>
+                                <p class="series-price">Rp135.000</p>
+                                <a href="#pesan" class="btn btn-primary w-100 scroll" data-seri="Juz 30">Pilih seri ini</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section section-dark">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-5">
+                        <img src="/img/hero-2.jpg" width="750" height="750" loading="lazy" alt="Tiga buku latihan menulis Al-Qur'an Juz 28, 29, dan 30" class="product-photo" />
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="section-title">Satu buku, belajar lebih terarah</h2>
+                        <p class="section-lead">Cukup Rp135.000 untuk satu buku latihan lengkap. Anak belajar menulis dan menghafal Al-Qur'an dengan langkah yang runtut, benar, dan rapi.</p>
+
+                        <div class="price-block">
+                            <p class="price-old">Harga normal <s>Rp299.000</s></p>
+                            <p class="price-now">Rp135.000 <span>harga promo</span></p>
+                        </div>
+                        <a href="#pesan" class="btn btn-accent btn-lg scroll">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cara" class="section">
+            <div class="container">
+                <h2 class="section-title mb-5">Cara belajar dengan Qalam Kecil</h2>
+                <ol class="steps">
+                    <li><strong>Kenali huruf</strong><p>Baca dan tunjuk huruf bersama anak, pelan-pelan dan tanpa target waktu.</p></li>
+                    <li><strong>Tebalkan khatnya</strong><p>Anak mengikuti garis putus-putus untuk merasakan bentuk dan arah tulisan.</p></li>
+                    <li><strong>Tulis sendiri</strong><p>Di bagian kosong, anak mencoba menulis ulang dengan tangannya sendiri.</p></li>
+                    <li><strong>Hapus dan ulangi</strong><p>Salah bukan masalah. Hapus, tulis lagi, lalu lanjut dihafalkan.</p></li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="featured" class="section section-tint">
+            <div class="container">
+                <h2 class="section-title mb-5">Kelebihan buku Qalam Kecil</h2>
+                <div class="row g-4 g-lg-5">
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-1.svg" alt="" width="48" height="48" /></span>
+                            <h3>Ukuran Huruf Besar</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-2.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title mb-0">Dapat Ditulis Dan Dihapus</h3>
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-2.svg" alt="" width="48" height="48" /></span>
+                            <h3>Dapat Ditulis dan Dihapus</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-3.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title mb-0">Ringan & Mudah dibawa</h3>
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-3.svg" alt="" width="48" height="48" /></span>
+                            <h3>Ringan & Mudah Dibawa</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-4.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title mb-0">Buku Berwarna</h3>
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-4.svg" alt="" width="48" height="48" /></span>
+                            <h3>Buku Berwarna</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-5.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title mb-0">Ukuran Buku Kertas A4</h3>
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-5.svg" alt="" width="48" height="48" /></span>
+                            <h3>Ukuran Kertas A4</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 col-6">
-                        <div class="card card-body">
-                            <div class="icon-wrapper">
-                                <img src="./dist/img/icon-featured-6.svg" class="img-fluid" />
-                            </div>
-                            <h3 class="title mb-0">Kertas Tebal & Tidak mudah sobek</h3>
+                    <div class="col-6 col-md-4">
+                        <div class="trait">
+                            <span class="icon-wrapper"><img src="/img/icon-featured-6.svg" alt="" width="48" height="48" /></span>
+                            <h3>Kertas Tebal & Tidak Mudah Sobek</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="testimonial">
-            <div class="custom-shape-divider mb-5">
-                <svg data-name="Layer 1" height="75px" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path fill="#3880ff" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path fill="#3880ff" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path fill="#3880ff" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-            <div class="container py-5">
+        <section id="testimonial" class="section">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Kata para orang tua</h2>
                 <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    <div class="col-xl-11">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure class="quote-card">
+                                        <blockquote>Anak saya jadi rajin menulis hijaiyah setiap sore. Hurufnya besar dan bisa dihapus, jadi dia tidak takut salah.</blockquote>
+                                        <figcaption><img src="/img/person-1.png" alt="" width="48" height="48" loading="lazy" /><span>Bu Ayu</span></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="quote-card">
+                                        <blockquote>Bukunya tebal dan tidak mudah sobek. Dua minggu dipakai, anak sudah hafal beberapa surat pendek.</blockquote>
+                                        <figcaption><img src="/img/person-3.png" alt="" width="48" height="48" loading="lazy" /><span>Pak Agus</span></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="quote-card">
+                                        <blockquote>Waktu main HP anak berkurang sejak ada buku ini. Ringan, jadi mudah dibawa saat bepergian.</blockquote>
+                                        <figcaption><img src="/img/person-2.png" alt="" width="48" height="48" loading="lazy" /><span>Bu Ani</span></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev" aria-label="Testimoni sebelumnya"></div>
+                            <div class="swiper-button-next" aria-label="Testimoni berikutnya"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-header bg-white text-center">
-                                        <img src="./dist/img/person-1.png" alt="Image" class="rounded-circle" />
-                                        <h3 class="m-0 mt-3">Bu Ayu</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="m-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo a lorem nec porttitor. Sed eleifend est nibh, eget vulputate leo efficitur et.</p>
-                                    </div>
-                                </div>
+        <section id="faq" class="section section-tint">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <h2 class="section-title">Pertanyaan yang sering ditanyakan</h2>
+                        <p class="section-lead">Belum ketemu jawabannya? Tanyakan langsung lewat <a href="https://wa.me/6283391225122" target="_blank" rel="noopener">WhatsApp</a>.</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="accordion" id="faq-list">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true" aria-controls="faq-1">Cocok untuk anak usia berapa?</button></h3>
+                                <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-list"><div class="accordion-body">Untuk anak yang sudah mulai mengenal huruf hijaiyah dan mampu memegang alat tulis. Di awal, sebaiknya didampingi orang tua.</div></div>
                             </div>
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-header bg-white text-center">
-                                        <img src="./dist/img/person-3.png" alt="Image" class="rounded-circle" />
-                                        <h3 class="m-0 mt-3">Pak Agus</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="m-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo a lorem nec porttitor. Sed eleifend est nibh, eget vulputate leo efficitur et.</p>
-                                    </div>
-                                </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">Perlu alat tulis apa?</button></h3>
+                                <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-list"><div class="accordion-body">Gunakan spidol yang bisa dihapus (spidol whiteboard) agar tulisan bisa diulang berkali-kali.</div></div>
                             </div>
-                            <div class="item">
-                                <div class="card">
-                                    <div class="card-header bg-white text-center">
-                                        <img src="./dist/img/person-2.png" alt="Image" class="rounded-circle" />
-                                        <h3 class="m-0 mt-3">Bu Ani</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="m-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo a lorem nec porttitor. Sed eleifend est nibh, eget vulputate leo efficitur et.</p>
-                                    </div>
-                                </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">Mulai dari seri yang mana?</button></h3>
+                                <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-list"><div class="accordion-body">Untuk pemula, Juz 30 adalah awal yang umum karena berisi surat-surat pendek. Kalau anak sudah mempelajari juz lain, pilih seri yang sesuai.</div></div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">Bisa bayar di tempat (COD)?</button></h3>
+                                <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-list"><div class="accordion-body">Bisa. Pilih COD di formulir pemesanan, lalu kami konfirmasi lewat WhatsApp sebelum buku dikirim. Metode lain: transfer BRI, BNI, BSI, atau BTPN.</div></div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">Berapa ongkos dan lama pengirimannya?</button></h3>
+                                <div id="faq-5" class="accordion-collapse collapse" data-bs-parent="#faq-list"><div class="accordion-body">Buku dikirim dari Ngawi, Jawa Timur. Ongkos kirim dan estimasi tiba kami sampaikan lewat WhatsApp sesuai alamat Anda.</div></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="pesan" class="section section-dark">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <h2 class="section-title">Pesan bukunya sekarang</h2>
+                        <p class="section-lead">Isi data di samping. Pesanan Anda akan diteruskan ke WhatsApp kami, lalu kami konfirmasi stok, ongkir, dan cara pembayaran.</p>
+                        <ol class="order-steps">
+                            <li>Isi nama, alamat, dan jumlah buku.</li>
+                            <li>Kirim lewat WhatsApp, kami balas untuk konfirmasi.</li>
+                            <li>Bayar sesuai metode pilihan, buku kami kirim.</li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="order-card">
+                            <form id="order-form" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="form-1" class="form-label">Nama Lengkap</label>
+                                        <input type="text" placeholder="Nama Lengkap" class="form-control" id="form-1" name="nama" required autocomplete="name" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="form-2" class="form-label">Nomor WhatsApp</label>
+                                        <input type="tel" class="form-control" placeholder="08xxxxxxxxxx" id="form-2" name="wa" required autocomplete="tel" />
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="form-3" class="form-label">Alamat Lengkap</label>
+                                        <textarea id="form-3" rows="3" class="form-control" placeholder="Jalan, desa/kelurahan, kecamatan, kota, kode pos" name="alamat" required autocomplete="street-address"></textarea>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="form-4" class="form-label">Metode Pembayaran</label>
+                                        <select id="form-4" class="form-select" name="bayar" required>
+                                            <option value="" disabled selected>Pilih metode</option>
+                                            <option>Transfer BRI</option>
+                                            <option>Transfer BNI</option>
+                                            <option>Transfer BSI</option>
+                                            <option>Transfer BTPN</option>
+                                            <option>COD (bayar di tempat)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="form-6" class="form-label">Seri Buku</label>
+                                        <select id="form-6" class="form-select" name="seri" required>
+                                            <option value="" disabled selected>Pilih seri</option>
+                                            <option>Juz 28</option>
+                                            <option>Juz 29</option>
+                                            <option>Juz 30</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="form-5" class="form-label">Jumlah Buku</label>
+                                        <input type="number" class="form-control" id="form-5" name="jumlah" min="1" max="20" value="1" required />
+                                    </div>
+                                </div>
+
+                                <div class="order-total">
+                                    <span>Total</span>
+                                    <strong id="order-total">Rp135.000</strong>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg w-100"><i class="fab fa-whatsapp me-2"></i>Kirim Pesanan via WhatsApp</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer bg-dark text-white" id="main-footer">
-        <div class="custom-shape-divider mb-5">
-            <svg data-name="Layer 1" height="75px" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path fill="#FFFFFF" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path fill="#FFFFFF" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path fill="#FFFFFF" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
-
-        <div class="inner-footer container py-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="widget-wrapper" id="footer">
-                        <h3>Pemesanan</h3>
-                        <p class="text-muted">Formulir pemesanan ada dibawah ini</p>
-    
-                        <form action="" novalidate>
-                            <div class="form-group">
-                                <label for="form-1">Nama Lengkap Anda</label>
-                                <input type="text" placeholder="Nama Lengkap Anda" class="form-control" id="form-1" />
-                            </div>
-                            <div class="form-group">
-                                <label for="form-2">Nomor Whatsapp</label>
-                                <input type="text" class="form-control" placeholder="Nomor Whatsapp" id="form-2" />
-                            </div>
-                            <div class="form-group">
-                                <label for="form-3">Alamat Lengkap</label>
-                                <textarea id="form-3" cols="30" rows="10" class="form-control" placeholder="Masukkan Alamat"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="form-4">Metode Pembayaran</label>
-                                <select id="form-4" class="form-control">
-                                    <option disabled="disabled" selected="selected">Pilih</option>
-                                    <option value="bri">Bank Rakyat Indonesia</option>
-                                    <option value="bni">Bank Negara Indonesia</option>
-                                    <option value="bsi">Bank Syariah Indonesia</option>
-                                    <option value="btpn">Bank Tabungan Pensiunan Negara</option>
-                                    <option value="cod">COD</option>
-                                </select>
-                            </div>
-    
-                            <div class="form-group">
-                                <div class="custom-control custom-checkbox my-1 mr-sm-2">
-                                    <input type="checkbox" class="custom-control-input" id="opsi-1" />
-                                    <label class="custom-control-label" for="opsi-1">Buku Menulis Al - Qur'an</label>
-                                </div>
-                            </div>
-    
-                            <button class="btn btn-primary"><i class="fas fa-check mr-2"></i>Pesan Sekarang!</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="widget-wrapper">
-                                <img src="https://via.placeholder.com/500x200" alt="Logo" class="img-fluid rounded mb-3" />
-                                <h3>Nama Situs</h3>
-                                <p class="m-0"><i class="fas fa-fw fa-building mr-2"></i>Kedunggalar, Ngawi, Jawa Timur</p>
-                                <p class="m-0"><i class="fas fa-fw fa-phone mr-2"></i>+62 833-9122-5122</p>
-                                <p class="m-0"><i class="fas fa-fw fa-envelope mr-2"></i>admin@namadomain.tld</p>
-                            </div>
-                            <div class="widget-wrapper">
-                                <h3>Title</h3>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item bg-transparent">An item</li>
-                                    <li class="list-group-item bg-transparent">A second item</li>
-                                    <li class="list-group-item bg-transparent">A third item</li>
-                                    <li class="list-group-item bg-transparent">A fourth item</li>
-                                    <li class="list-group-item bg-transparent">And a fifth one</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="widget-wrapper col-6 col-lg-12">
-                                    <h3>Title</h3>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">Active</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="widget-wrapper col-6 col-lg-12">
-                                    <h3>Title</h3>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">Active</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-footer container">
-            <hr>
-            <div class="row align-items-center py-3">
-                <div class="col-md-6 text-center text-md-left">
-                    <p class="m-0"><a href="/">Nama Situs</a> 2021</p>
-                </div>
+    <footer class="footer" id="main-footer">
+        <div class="container">
+            <div class="row g-4 py-5">
                 <div class="col-md-6">
-                    <ul class="nav justify-content-center float-md-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kebijakan Layanan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kebijakan Privasi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Tentang Kami</a>
-                        </li>
-                    </ul>
+                    <p class="footer-brand"><span class="brand-mark" aria-hidden="true">ق</span>Qalam Kecil</p>
+                    <p class="footer-about">Buku latihan menulis dan menghafal Al-Qur'an yang dirancang agar anak betah belajar.</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h3>Kontak</h3>
+                    <p class="m-0"><i class="fas fa-fw fa-location-dot me-2"></i>Kedunggalar, Ngawi, Jawa Timur</p>
+                    <p class="m-0"><i class="fas fa-fw fa-phone me-2"></i><a href="https://wa.me/6283391225122">+62 833-9122-5122</a></p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h3>Pembayaran</h3>
+                    <p class="m-0">Transfer BRI, BNI, BSI, BTPN, atau COD</p>
                 </div>
             </div>
+            <p class="copyright">&copy; <span id="year">2026</span> Qalam Kecil. Semua hak dilindungi.</p>
         </div>
     </footer>
 
-    <div class="btt-wrapper"><button class="btn btn-dark"><i class="fas fa-chevron-up fa-fw"></i></button></div>
-    
-    <script src="./dist/js/app.js"></script>
+    <div class="mobile-cta">
+        <span><strong>Rp135.000</strong> per buku</span>
+        <a href="#pesan" class="btn btn-accent btn-sm scroll">Pesan Sekarang</a>
+    </div>
+
+    <div class="btt-wrapper"><button class="btn btn-dark" type="button" aria-label="Kembali ke atas"><i class="fas fa-chevron-up fa-fw"></i></button></div>
+
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>
